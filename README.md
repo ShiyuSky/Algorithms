@@ -10,5 +10,6 @@ Although worst case runtime is O(n^2), which is worse than many other sorting al
 
 **Run Length Encoding**
 
-Reference
-1. GeeksforGeeks
+## Reference
+
+[1] GeeksforGeeks
