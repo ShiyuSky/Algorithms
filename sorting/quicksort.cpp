@@ -1,6 +1,4 @@
-/*
-An implementation of Quicksort
-*/
+/* An implementation of Quicksort */
 
 #include "stdafx.h"
 #include <iostream>
@@ -58,8 +56,7 @@ void printArray(int arr[], int size) {
     cout << endl;
 }
 
-int main()
-{
+int main() {
     int arr[] = { 7, 6, 1, 2, 5, 7, 8 };
     int n = sizeof(arr) / sizeof(arr[0]);
     quicksort(arr, 0, n - 1);
