@@ -2,6 +2,8 @@ Implementation for algorithms and data structures
 
 ## Sorting
 
+Each sorting algorithms has its beauty. No matter how bad its average or worst case time complexity are, they are still useful in practice.
+
 **Quicksort**:
 
 Although worst case runtime is O(n^2), which is worse than many other sorting algorithms, the worst case rarely occurs in real world. Its average case runtime is O(nlogn), which can be achieved by carefully selecting the pivot. It is also tail recursive, therefore optimization can be applied.
@@ -13,6 +15,14 @@ Time Complexity of mergesort is O(nlogn) for all three cases (worst, average, an
 **Insertionsort**:
 
 It takes O(n^2) in both worst and average cases, but it takes O(n) in best case. So it is used when only a few elements are misplaced. The lookback loop can be optimized using binary search.
+
+**Selectionsort**:
+
+Always O(n^2) but the number of swaps (memory write) is O(n). It is often used when memory writing operations are expensive (e.g. flash memory) or when sorting large amount of small-sized arrays because asymptotically it is faster than O(nlogn) alternatives.
+
+**Bubblesort**:
+
+Worst/average case O(n^2) and best case O(n). In practice, it is often used for sorting almost-sorted arrays in linear time.
 
 ## Data Compression
 
