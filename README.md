@@ -4,6 +4,10 @@ Implementation for algorithms and data structures
 
 Each sorting algorithms has its beauty. No matter how bad its average or worst case time complexity are, they are still useful in practice.
 
+**Heapsort**:
+
+Heapsort consists of two steps: build the heap and extract the root from the heap n times. Time complexity of the former step is O(n), and latter step is O(nlogn). Heapsort performs worse than quicksort and mergesort in practice, but the heap structure itself has many applications.
+
 **Quicksort**:
 
 Although worst case runtime is O(n^2), which is worse than many other sorting algorithms, the worst case rarely occurs in real world. Its average case runtime is O(nlogn), which can be achieved by carefully selecting the pivot. It is also tail recursive, therefore optimization can be applied.
