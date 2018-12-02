@@ -24,6 +24,10 @@ It takes O(n^2) in both worst and average cases, but it takes O(n) in best case.
 
 Always O(n^2) but the number of swaps (memory write) is O(n). It is often used when memory writing operations are expensive (e.g. flash memory) or when sorting large amount of small-sized arrays because asymptotically it is faster than O(nlogn) alternatives.
 
+**Countingsort**:
+
+Time complexity is O(n+k) where n is the number of elements and k is the range of the input. It is not a comparison-based sorting algorithm, so it is possible to sort in linear time when the range k is not significantly greater than number of elements n.
+
 **Bubblesort**:
 
 Worst/average case O(n^2) and best case O(n). In practice, it is often used for sorting almost-sorted arrays in linear time.
