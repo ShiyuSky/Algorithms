@@ -32,15 +32,15 @@ Time complexity is O(n+k) where n is the number of elements and k is the range o
 
 Worst/average case O(n^2) and best case O(n). In practice, it is often used for sorting almost-sorted arrays in linear time.
 
-## Data Compression
-
-**Run Length Encoding**
-
-## Data Compression
+## Others
 
 **Floyd's Cycle Detection**:
 
 Detect cycles in singly-linked list in linear time (fastest) and with constant space.
+
+**Run Length Encoding**:
+
+A simple form of lossless data compression method that is useful for data that contains many consecutive values (e.g. AAAAAABBBBBBBCCCCCC).
 
 ## Good Practices
 
