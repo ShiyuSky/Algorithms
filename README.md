@@ -36,6 +36,16 @@ Worst/average case O(n^2) and best case O(n). In practice, it is often used for 
 
 **Run Length Encoding**
 
+## Data Compression
+
+**Floyd's Cycle Detection**:
+
+Detect cycles in singly-linked list in linear time (fastest) and with constant space.
+
+## Good Practices
+
+**Heap Quiz**: https://www.geeksforgeeks.org/data-structure-gq/heap-gq/
+
 ## Reference
 
 [1] GeeksforGeeks
