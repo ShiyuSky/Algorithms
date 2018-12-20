@@ -1,5 +1,19 @@
 Implementation for algorithms and data structures
 
+
+## Dynamic Programming
+
+DP is an algorithmic paradigm that solves a given complex problem by breaking it into overlapping subproblems and stores the result of subproblems to avoid repeating computation. Two main properties of a problem suggest that it can be solved using DP:
+
+(1) overlapping subproblems
+
+(2) optimal substructure: optimal solution of given problem can be obtained by using optimal solutions of its subproblems.
+
+**Longest Increasing Subsequence**:
+
+The Longest Increasing Subsequence (LIS) problem is to find the length of the longest subsequence of a given sequence such that all elements of the subsequence are sorted in increasing order. For example, the length of LIS for {10, 22, 9, 33, 21, 50, 41, 60, 80} is 6 and LIS is {10, 22, 33, 50, 60, 80}. Note that this is an O(n^2) solution and there is a O(nlogn) solution not using DP.
+
+
 ## Sorting
 
 Each sorting algorithms has its beauty. No matter how bad its average or worst case time complexity are, they are still useful in practice.
