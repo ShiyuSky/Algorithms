@@ -4,6 +4,10 @@ Implementation for algorithms and data structures
 
 Each sorting algorithms has its beauty. No matter how bad its average or worst case time complexity are, they are still useful in practice.
 
+**Radixsort**:
+
+The lower bound for comparison-based algos is Omega(nlogn). Radix sort improves counting sort, which is a linear time sorting algo that sort in O(n+k) if numbers range from 1 to k, by using counting sort as a subroutine, to achieve better performance when numbers have a larger range. However, it is worse than quicksort in many situations for reasons. It has a large hidden constant factor in the asymptotic runtime. Also, counting sort, as a subroutine, takes extra space to operate.
+
 **Heapsort**:
 
 Heapsort consists of two steps: build the heap and extract the root from the heap n times. Time complexity of the former step is O(n), and latter step is O(nlogn). Heapsort performs worse than quicksort and mergesort in practice, but the heap structure itself has many applications.
