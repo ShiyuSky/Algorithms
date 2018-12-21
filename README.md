@@ -13,6 +13,10 @@ DP is an algorithmic paradigm that solves a given complex problem by breaking it
 
 The Longest Increasing Subsequence (LIS) problem is to find the length of the longest subsequence of a given sequence such that all elements of the subsequence are sorted in increasing order. For example, the length of LIS for {10, 22, 9, 33, 21, 50, 41, 60, 80} is 6 and LIS is {10, 22, 33, 50, 60, 80}. Note that this is an O(n^2) solution and there is a O(nlogn) solution not using DP.
 
+**Longest Increasing Subsequence**:
+
+O(mn) solution where m and n are the lengths of two sequences respectively.
+
 
 ## Sorting
 
