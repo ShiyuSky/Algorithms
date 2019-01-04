@@ -17,7 +17,7 @@ Note that this is an O(n^2) solution and there is a O(nlogn) solution not using 
 
 O(mn) solution where m and n are the lengths of two sequences respectively.
 
-**0-1 Knapsack**:
+**0-1 Knapsack / Unbound Knapsack**:
 
 Complexity O(nW).
 
