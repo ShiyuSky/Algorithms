@@ -9,13 +9,9 @@ DP is an algorithmic paradigm that solves a given complex problem by breaking it
 
 (2) optimal substructure: optimal solution of given problem can be obtained by using optimal solutions of its subproblems.
 
-**Longest Increasing Subsequence**:
+**Longest Increasing/Common/Palindromic Subsequence**:
 
-Note that this is an O(n^2) solution and there is a O(nlogn) solution not using DP.
-
-**Longest Increasing Subsequence**:
-
-O(mn) solution where m and n are the lengths of two sequences respectively.
+Typical DP problems.
 
 **0-1 Knapsack / Unbound Knapsack**:
 
