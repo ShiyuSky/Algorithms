@@ -17,6 +17,12 @@ Typical DP problems.
 
 Complexity O(nW).
 
+## Data Structures
+
+**Trie**:
+
+An efficient infomation retrieval data structure that can achieve O(M) search complexity where M is the length of key, but at the cost of O(M * Alphabet Size * N) where N is the number of keys in trie.
+
 
 ## Sorting
 
