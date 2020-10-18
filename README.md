@@ -1,7 +1,13 @@
-Implementation for algorithms and data structures
+I organize this repo into three categories:
+
+(1) Solution for LeetCode problems
+
+(2) Implementation for algorithms
+
+(3) Implementation for data structures
 
 
-## Dynamic Programming
+## LeetCode Problems: Dynamic Programming
 
 DP is an algorithmic paradigm that solves a given complex problem by breaking it into overlapping subproblems and stores the result of subproblems to avoid repeating computation. Two main properties of a problem suggest that it can be solved using DP:
 
@@ -17,14 +23,17 @@ Typical DP problems.
 
 Complexity O(nW).
 
-## Data Structures
+**Unique Binary Search Trees**:
 
-**Trie**:
+DP in a BST problem.
 
-An efficient infomation retrieval data structure that can achieve O(M) search complexity where M is the length of key, but at the cost of O(M * Alphabet Size * N) where N is the number of keys in trie.
+## LeetCode Problems: BST
 
+**Unique BST II**:
 
-## Sorting
+Recursively generate all structurally unique BST's (binary search trees) that store values 1 ... n.
+
+## Algorithms: Sorting
 
 Each sorting algorithms has its beauty. No matter how bad its average or worst case time complexity are, they are still useful in practice.
 
@@ -60,7 +69,7 @@ Time complexity is O(n+k) where n is the number of elements and k is the range o
 
 Worst/average case O(n^2) and best case O(n). In practice, it is often used for sorting almost-sorted arrays in linear time.
 
-## Others
+## Algorithms: Others
 
 **Floyd's Cycle Detection**:
 
@@ -69,6 +78,12 @@ Detect cycles in singly-linked list in linear time (fastest) and with constant s
 **Run Length Encoding**:
 
 A simple form of lossless data compression method that is useful for data that contains many consecutive values (e.g. AAAAAABBBBBBBCCCCCC).
+
+## Data Structures
+
+**Trie**:
+
+An efficient infomation retrieval data structure that can achieve O(M) search complexity where M is the length of key, but at the cost of O(M * Alphabet Size * N) where N is the number of keys in trie.
 
 ## Good Practices
 
